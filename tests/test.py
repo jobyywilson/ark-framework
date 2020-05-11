@@ -1,5 +1,4 @@
-from asynco import asynco
-from asynco import Asynco
+from ark.asynco import Asynco, asynco
 
 
 @asynco(pool_name='God')
