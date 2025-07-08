@@ -1,17 +1,23 @@
+
+---
+
+### ✅ `setup.py`
+
+```python
 import setuptools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="ark-framework", # Replace with your own username
-    version="0.0.1",
+    name="ark-framework",
+    version="0.0.2",
     author="Joby Wilson Mathews",
     author_email="jobyywilson@gmail.com",
-    description="A small example package",
+    description="A lightweight async task framework using thread pools",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/jobyywilson/ark-framework.git",
+    url="https://github.com/jobyywilson/ark-framework",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
